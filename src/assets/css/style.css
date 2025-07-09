@@ -78,3 +78,59 @@
  .bd-mode-toggle .dropdown-menu .active .bi {
      display: block !important
  }
+
+ .font-mais {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  z-index: 99999999;
+  color:white;
+  right:10px;
+  top: 114px;
+  background-color: #4b628b;
+  border-radius: 7px;
+   padding: 0px;
+  cursor:pointer;
+}
+.font-menos {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  z-index: 99999999;
+  color:white;
+  right:10px;
+  top: 175px;
+  background-color: #4b628b;
+  border-radius: 7px;
+   padding: 0px;
+  cursor:pointer;
+}
+.font-mais:hover {
+  background-color: #28a745;
+}
+.font-menos:hover {
+  background-color: #28a745;
+}
+ .size-mais{
+ display: inline-block;
+    position: relative;
+    top:11px;
+    left:4px;
+    padding:10px;
+    background-image: url('../img/a+.png');
+    width: 32px;
+    height: 2px;
+    background-repeat: no-repeat;
+}
+
+ .size-menos{
+ display: inline-block;
+    position: relative;
+    top:11px;
+    left:4px;
+    padding:10px;
+    background-image: url('../img/a-.png');
+    width: 32px;
+    height: 2px;
+    background-repeat: no-repeat;
+}

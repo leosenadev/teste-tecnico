@@ -12,7 +12,26 @@
   <div id="app">r</div>
   <script type="module" src="/src/main.ts"></script>
   <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    var i = 15;
+    function aumentarFont(event) {
+      event.preventDefault();
+     
+
+      i += 2;
+      let tam = `${i}px`;
+     
+      $("body, div,p,h2,ul,li").css({ 'font-size': tam })
+    }
+    function diminuirFont(event) {
+    event.preventDefault();
+      i -= 1;
+      let tam = `${i}px`;
+
+      $("body, div,p,h2,ul,li").css({ 'font-size': tam })
+    }
+  </script>
 </body>
 
 </html>
